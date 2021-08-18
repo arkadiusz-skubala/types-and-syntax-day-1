@@ -1,0 +1,13 @@
+{
+  "name": "bootcamp-types-and-syntax-day-1",
+  "version": "2.0.0",
+  "description": "Atos Bootcamp - Types and Syntax day 1",
+  "author": "Arkadiusz Skubala <arkadiusz.skubala@atos.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
