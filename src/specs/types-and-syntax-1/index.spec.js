@@ -95,11 +95,11 @@ describe('unit testing - types and syntax - day 1', () => {
 
         // The trim() method removes whitespace from both sides of a string.
 
-        // The spltest() method converts a string into an array.
+        // The split() method converts a string into an array.
         // The method takes one parameter: the separator. eg.:
         // let text = "My String";
-        // text.spltest(" "); // Split by space, returns: ["My", "String"];
-        // text.spltest(""); // Split by empty string, returns: ["M", "y", " ", "S", "t", "r", "i", "n", "g"];
+        // text.split(" "); // Split by space, returns: ["My", "String"];
+        // text.split(""); // Split by empty string, returns: ["M", "y", " ", "S", "t", "r", "i", "n", "g"];
 
         let name = "John Lennon",
             firstName = "Johnny",
@@ -110,9 +110,9 @@ describe('unit testing - types and syntax - day 1', () => {
         expect(name.replace("Lennon", "R. Cash")).toEqual( /* YOUR ANSWER HERE */ );
         expect(firstName.concat(" ", secondName)).toEqual( /* YOUR ANSWER HERE */ );
         expect(reallyMessyText.trim()).toEqual( /* YOUR ANSWER HERE */ );
-        expect(ringOfFire.spltest(",")[2].trim()).toEqual( /* YOUR ANSWER HERE */ );
-        expect(ringOfFire.spltest("-")[1].trim()).toEqual( /* YOUR ANSWER HERE */ );
-        expect(ringOfFire.spltest(" ")[0].trim()).toEqual( /* YOUR ANSWER HERE */ );
+        expect(ringOfFire.split(",")[2].trim()).toEqual( /* YOUR ANSWER HERE */ );
+        expect(ringOfFire.split("-")[1].trim()).toEqual( /* YOUR ANSWER HERE */ );
+        expect(ringOfFire.split(" ")[0].trim()).toEqual( /* YOUR ANSWER HERE */ );
     });
 
     test('defines arrays precisely', () => {
